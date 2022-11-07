@@ -1,0 +1,51 @@
+                                     __
+                              ____  / /___ _   _____  _____
+                             / __ \/ / __ \ | / / _ \/ ___/
+                            / /_/ / / /_/ / |/ /  __/ /    
+                           / .___/_/\____/|___/\___/_/     
+                          /_/           ___      _ __       __
+                                    ___/ (_)__ _(_) /____ _/ /
+                                   / _  / / _ `/ / __/ _ `/ /
+                                   \_,_/_/\_, /_/\__/\_,_/_/
+                                        /___/
+
+ ___________________
+|o ............... o|
+|o ∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙ o|             Welcome! We're plover digital, a small entity dedicated
+|                   |             to providing quality, independent server infrastructure
+|o ░░░░ ⠶ ░░░░░░░░ o|             services.
+|o ░░░░ ⠩ ░░░░░░░░ o|             
+|                   |             
+|o ▄▄▄ ▄▄▄ ▄▄▄ ▄▄▄ o|             We've been renting and sharing a 48U rack since 2019:
+|o ▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀ o|             - Located in Minneapolis, MN
+|o ‖‖‖‖‖‖ ⠥ ‖‖‖‖‖‖ o|             - Dedicated 10Gbps dual stack link
+|o ‖‖‖‖‖‖ ⠋ ‖‖‖‖‖‖ o|             - Datacenter-provided uninterrupted power
+|                   |
+|o  * .   ** . .   o|             
+|o __▂▂▂___▂▂_oo__ o|                               -- Service Info --
+|                   |             (Very negotiable, please chat with us about your needs!)
+|o ▔▔ ▔ ░░░ ====== o|             
+|                   |             $100/month server colocation
+|   >           <   |             - 3U of space
+|   >           <   |             - 100Mbps dedicated link, up to any unallocated bandwidth
+|   >           <   |             - We can help pick and assemble a system
+|                   |             
+|                   |             $300/month server colocation
+|                   |             - 3U of space
+|                   |             - 1Gbps dedicated link, up to any unallocated bandwidth
+|        you?       |             - We can help pick and assemble a system
+|                   |             
+|                   |             $2/month/per IPv4 address
+|                   |             Free IPv6 allocation (we currently have a /48)
+|                   |             
+|                   |             (coming soon) $7/month VPS with available block storage
+|___________________|                           Great for in-rack backups and small hosting!
+
+
+
+                          |  Get in touch! machines@plover.io  |
+
+
+                                     -- Finances --
+
+(in progress)
