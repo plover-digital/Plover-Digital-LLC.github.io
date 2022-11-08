@@ -15,11 +15,11 @@
 |                   |             to providing quality, independent server infrastructure
 |o ░░░░ ⠶ ░░░░░░░░ o|             services.
 |o ░░░░ ⠩ ░░░░░░░░ o|             
-|                   |             
-|o ▄▄▄ ▄▄▄ ▄▄▄ ▄▄▄ o|             We've been renting and sharing a 48U rack since 2019:
-|o ▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀ o|             - Located in Minneapolis, MN
-|o ‖‖‖‖‖‖ ⠥ ‖‖‖‖‖‖ o|             - Dedicated 10Gbps dual stack link
-|o ‖‖‖‖‖‖ ⠋ ‖‖‖‖‖‖ o|             - Datacenter-provided uninterrupted power
+|                   |             We've been renting and sharing a 48U rack since 2019:
+|o ▄▄▄ ▄▄▄ ▄▄▄ ▄▄▄ o|             - Located in Minneapolis, MN
+|o ▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀ o|             - Dedicated 10Gbps dual stack link
+|o ‖‖‖‖‖‖ ⠥ ‖‖‖‖‖‖ o|             - Datacenter-provided uninterrupted power
+|o ‖‖‖‖‖‖ ⠋ ‖‖‖‖‖‖ o|             
 |                   |
 |o  * .   ** . .   o|             
 |o __▂▂▂___▂▂_oo__ o|                               -- Service Info --
@@ -39,8 +39,8 @@
 |                   |             Free IPv6 allocation (we currently have a /48)
 |                   |             
 |                   |             (coming soon) $7/month VPS with available block storage
-|___________________|                           Great for in-rack backups and small hosting!
-
+|                   |                           Great for in-rack backups and small hosting!
+|___________________|
 
 
                           |  Get in touch! machines@plover.io  |
@@ -48,4 +48,31 @@
 
                                      -- Finances --
 
-(in progress)
+ plover digital's focus is pooling resources to access higher service-level tiers from DCs
+ and ISPs, and to this end we are transparent about our expenses and revenue. 
+
+ +----------+--------------------+-----------+----------------+----------+--+--------------+
+ |          |                    | Unit Cost | Quantity/Month | Total    |  | Profit/Month |
+ |          |                    |           |                |          |  |              |
+ | Expenses | Power + Space      | -$529.39  | 1              | -$529.39 |  | -$529.39     |
+ |          | Cross Connect      | -$350     | 1              | -$350    |  | -$879.39     |
+ |          | IP Transit         | -$550     | 1              | -$550    |  | -$1,429.39   |
+ |          | IPv4 Addresses     | -$1       | 64             | -$64     |  | -$1,493.39   |
+ |          | Email              | -$24      | 1              | -$24     |  | -$1,517.39   |
+ |          | Financial Services | -$100     | 1              | -$100    |  | -$1,617.39   |
+ |          | Regulatory Fees    | -$300     | 0.08           | -$25     |  | -$1,642.39   |
+ |          |                    |           |                |          |  |              |
+ | Revenue  | Colocation         |           |                | $1,150   |  | -$492.39     |
+ |          | VPS                |           |                | $6.50    |  | -$485.89     |
+ |          | Addt'l Networking  |           |                | $24      |  | -$461.89     |
+ +----------+--------------------+-----------+----------------+----------+--+--------------+
+
+ Our goal is to have stable, minor (~15% of expenses) profits that can be reinvested into
+ hardware or service-level upgrades, or savings for any unforeseen events. The current gap in
+ income is being covered by us, the administrators.
+
+    +----------------------------------------------------------------------------------+     
+    | ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉                    |            |
+    +----------------------------------------------------------------------------------+
+ -$1,642                                          -$461.89                $0         +15%
+                                                                                
