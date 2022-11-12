@@ -1,0 +1,59 @@
+/*
+ 900px: page width
+ 550px: hero text width
+*/
+
+@font-face {
+  font-family: 'Menlo';
+  src: url('Menlo-Regular.woff2') format('woff2'),
+      url('Menlo-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html, body {
+  font-family: 'Menlo', monospace;
+}
+
+.container {
+  white-space: pre;
+}
+.main {
+  display: flex;
+}
+.text {
+  max-width: 900px;
+  white-space: pre-wrap;
+}
+.main .text {
+  max-width: 550px;
+}
+.finances-small {
+  display: none;
+}
+@media (max-width: 900px) {
+  .main {
+    display: block;
+  }
+  .main div {
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .finances-big {
+    display: none;
+  }
+  .finances-small {
+    display: block;
+  }
+}
+
+.fit {
+  width: fit-content;
+}
+.center {
+  margin: 0 auto;
+}
+.inline-block {
+  display: inline-block;
+}
