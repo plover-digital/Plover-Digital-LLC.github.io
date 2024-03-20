@@ -61,11 +61,11 @@ Welcome! We're plover digital, a small entity dedicated to providing quality, in
 
 We've been operating a 48U rack since 2019:
 - Located in Minneapolis, MN at Cologix MIN4
-- Dedicated 10Gbps dual stack link
+- Dedicated 10Gbps dual stack link from Hurricane Electric
 - Datacenter-provided uninterrupted power
 
 
-<div class="center fit">-- Service Info --</div>
+<div class="center fit">-- Datacenter Colocation --</div>
 <div class="center fit">(Very flexible, please chat with us about your needs!)</div>
 $85/month 100Mbps uplink
 $100/month 100Mbps shared on 1Gbps uplink
@@ -77,11 +77,18 @@ $200/month 1Gbps shared on 10Gbps uplink
 $2/month/per IPv4 address
 Free IPv6 allocation (we currently have a /48)
 
+<div class="center fit">-- Virtual Private Servers --</div>
 (coming soon) $7/month VPS with available block storage
-- Great for in-rack backups and small hosting!</div>
+- Great for in-rack backups and small hosting!
+
+<div class="center fit"><a href="#" id="get-notified">Get notified when VPS services launch</a></div>
+
+<div class="center fit">-- Managed Hosting --</div>
+$1/month/domain static git-backed web hosting at <a href="https://bloc.host/">bloc.host</a></div>
 </div>
 
-<div class="center fit">|  Get in touch! <a href="mailto:machines@plover.io">machines@plover.io</a>  |</div>
+<div class="center fit">|  Interested in our services, or have a burning question?  |
+|              Reach us at <a href="mailto:machines@plover.io">machines@plover.io</a>               |</div>
 
 
 <div class="center fit">-- Finances --</div>
@@ -111,7 +118,30 @@ Free IPv6 allocation (we currently have a /48)
 <div class="text">We have a referral plan: current users get 10% off a year of service for each new user referral.</div></div>
 <div class="finances-small text">To see detailed financial info (a table and more) view this website on a larger display, or use the desktop mode in your mobile browser.</div>
 
+<div class="modal-wrapper">
+  <div class="modal">
+    <iframe data-w-type="embedded" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://0607p.mjt.lu/wgt/0607p/xlry/form?c=bf05df9c" width="100%" style="height: 0;"></iframe>
 
+    <script type="text/javascript" src="https://app.mailjet.com/pas-nc-embedded-v1.js"></script>
+  </div>
+  <div class="modal-close"><img src="close_black_24dp.svg" /></div>
 </div>
+</div>
+
+<script>
+  const modalOpen = document.querySelector('#get-notified');
+  const modal = document.querySelector('.modal-wrapper');
+  const modalClose = document.querySelector('.modal-close');
+  const html = document.querySelector('html');
+
+  modalOpen.addEventListener('click', () => {
+    modal.style.display = 'block';
+    html.style.overflow = 'hidden';
+  });
+  modalClose.addEventListener('click', () => {
+    modal.style.display = 'none';
+    html.style.overflow = 'auto';
+  });
+</script>
   </body>
 </html>
