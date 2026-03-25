@@ -38,12 +38,25 @@
 |                   |             $2/month/per IPv4 address
 |                   |             Free IPv6 allocation (we currently have a /48)
 |                   |             
-|                   |             (coming soon) $7/month VPS with available block storage
-|                   |                           Great for in-rack backups and small hosting!
+|                   |             VMs are now available on killdeer.digital.
+|                   |             Sign up with: ssh [username]@killdeer.digital
 |___________________|
 
 
-                          |  Get in touch! machines@plover.io  |
+                           +----------+----------------+--------+
+                           | Size     | CPU RAM Disk   | Est.   |
+                           +----------+----------------+--------+
+                           | Micro    | 1c  1g   10g   | ~$8/mo |
+                           | Basic    | 1c  2g   25g   | ~$15/mo|
+                           | Standard | 2c  2g   50g   | ~$20/mo|
+                           | Premium  | 2c  4g   50g   | ~$25/mo|
+                           | Ultra    | 4c  4g  100g   | ~$40/mo|
+                           | Mega     | 4c  8g  100g   | ~$50/mo|
+                           +----------+----------------+--------+
+                           More info: ssh killdeer.digital help
+
+
+                           |  Get in touch! machines@plover.io  |
 
 
                                      -- Finances --
@@ -63,7 +76,7 @@
  |          | Regulatory Fees    | -$300     | 0.08           | -$25     |  | -$1,642.39   |
  |          |                    |           |                |          |  |              |
  | Revenue  | Colocation         |           |                | $1,150   |  | -$492.39     |
- |          | VPS                |           |                | $6.50    |  | -$485.89     |
+ |          | VMs                |           |                | $6.50    |  | -$485.89     |
  |          | Addt'l Networking  |           |                | $24      |  | -$461.89     |
  +----------+--------------------+-----------+----------------+----------+--+--------------+
 

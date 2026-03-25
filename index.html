@@ -83,11 +83,23 @@ We can help pick and assemble a system
 $2/month/per IPv4 address
 Free IPv6 allocation (we currently have a /48)
 
-<div class="center fit">-- Virtual Private Servers --</div>
-(coming soon) $7/month VPS with available block storage
-- Great for in-rack backups and small hosting!
+<div class="center fit">-- Virtual Machines --</div>
+VMs are now available on killdeer.digital.
 
-<div class="center fit"><a href="#" id="get-notified">Get notified when VPS services launch</a></div>
++----------+----------------+--------+
+| Size     | CPU RAM Disk   | Est.   |
++----------+----------------+--------+
+| Micro    | 1c  1g   10g   | ~$8/mo |
+| Basic    | 1c  2g   25g   | ~$15/mo|
+| Standard | 2c  2g   50g   | ~$20/mo|
+| Premium  | 2c  4g   50g   | ~$25/mo|
+| Ultra    | 4c  4g  100g   | ~$40/mo|
+| Mega     | 4c  8g  100g   | ~$50/mo|
++----------+----------------+--------+
+
+Sign up with: ssh [username]@killdeer.digital
+
+More info: ssh killdeer.digital help
 
 <div class="center fit">-- Managed Hosting --</div>
 $1/month/domain static git-backed web hosting at <a href="https://bloc.host/">bloc.host</a></div>
@@ -111,7 +123,7 @@ $1/month/domain static git-backed web hosting at <a href="https://bloc.host/">bl
 |          | Regulatory Fees    | -$300      | 0.08           | -$25       | -$3,274.63   |
 |          |                    |            |                |            |              |
 | Revenue  | Colocation         |            |                | $2,125     | -$1,149.63   |
-|          | VPS                |            |                | $13.00     | -$1,136.63   |
+|          | VMs                |            |                | $13.00     | -$1,136.63   |
 +----------+--------------------+------------+----------------+------------+--------------+
 
 <div class="text">Our goal is to have stable, minor (~15% of expenses) profits that can be reinvested into hardware or service-level upgrades, or savings for any unforeseen events. The current gap in income is being covered by us, the administrators.</div>
@@ -123,30 +135,6 @@ $1/month/domain static git-backed web hosting at <a href="https://bloc.host/">bl
 <div class="text">We have a referral plan: current users get 10% off a year of service for each new user referral.</div></div>
 <div class="finances-small text">To see detailed financial info (a table and more) view this website on a larger display, or use the desktop mode in your mobile browser.</div>
 
-<div class="modal-wrapper">
-  <div class="modal">
-    <iframe data-w-type="embedded" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://0607p.mjt.lu/wgt/0607p/xlry/form?c=bf05df9c" width="100%" style="height: 0;"></iframe>
-
-    <script type="text/javascript" src="https://app.mailjet.com/pas-nc-embedded-v1.js"></script>
-  </div>
-  <div class="modal-close"><img src="close_black_24dp.svg" /></div>
 </div>
-</div>
-
-<script>
-  const modalOpen = document.querySelector('#get-notified');
-  const modal = document.querySelector('.modal-wrapper');
-  const modalClose = document.querySelector('.modal-close');
-  const html = document.querySelector('html');
-
-  modalOpen.addEventListener('click', () => {
-    modal.style.display = 'block';
-    html.style.overflow = 'hidden';
-  });
-  modalClose.addEventListener('click', () => {
-    modal.style.display = 'none';
-    html.style.overflow = 'auto';
-  });
-</script>
   </body>
 </html>

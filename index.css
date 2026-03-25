@@ -65,32 +65,3 @@ button {
   cursor: pointer;
   background-color: #fff;
 }
-
-.modal-wrapper {
-  display: none;
-
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: url('/dither.png');
-  image-rendering: pixelated;
-}
-.modal-close {
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  background-color: white;
-  height: 35px;
-  width: 35px;
-  padding: 4px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
-.modal-close img {
-  width: 100%;
-}
