@@ -55,6 +55,10 @@
                            +----------+-----+-----+------+--------+
                            More info: ssh killdeer.digital help
 
+                                      -- Status --
+                           Service and network status at
+                           status.plover.digital
+
                            |  Get in touch! machines@plover.io  |
                            |  Discord: discord.gg/AhD77Raqru    |
 
