@@ -43,18 +43,17 @@
 |___________________|
 
 
-                           +----------+----------------+--------+
-                           | Size     | CPU RAM Disk   | Est.   |
-                           +----------+----------------+--------+
-                           | Micro    | 1c  1g   10g   | ~$8/mo |
-                           | Basic    | 1c  2g   25g   | ~$15/mo|
-                           | Standard | 2c  2g   50g   | ~$20/mo|
-                           | Premium  | 2c  4g   50g   | ~$25/mo|
-                           | Ultra    | 4c  4g  100g   | ~$40/mo|
-                           | Mega     | 4c  8g  100g   | ~$50/mo|
-                           +----------+----------------+--------+
+                           +----------+-----+-----+------+--------+
+                           | Size     | CPU | RAM | Disk | Est.   |
+                           +----------+-----+-----+------+--------+
+                           | Micro    | 1c  | 1g  | 10g  | ~$8/mo |
+                           | Basic    | 1c  | 2g  | 25g  | ~$15/mo|
+                           | Standard | 2c  | 2g  | 50g  | ~$20/mo|
+                           | Premium  | 2c  | 4g  | 50g  | ~$25/mo|
+                           | Ultra    | 4c  | 4g  | 100g | ~$40/mo|
+                           | Mega     | 4c  | 8g  | 100g | ~$50/mo|
+                           +----------+-----+-----+------+--------+
                            More info: ssh killdeer.digital help
-
 
                            |  Get in touch! machines@plover.io  |
                            |  Discord: discord.gg/AhD77Raqru    |

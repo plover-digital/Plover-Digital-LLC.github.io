@@ -29,6 +29,11 @@ html, body, * {
 .main .text {
   max-width: 550px;
 }
+.contact-box {
+  white-space: pre;
+  width: fit-content;
+  max-width: none;
+}
 .finances-small {
   display: none;
 }
