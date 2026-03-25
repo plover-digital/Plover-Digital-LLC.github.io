@@ -1,8 +1,8 @@
                                      __
                               ____  / /___ _   _____  _____
                              / __ \/ / __ \ | / / _ \/ ___/
-                            / /_/ / / /_/ / |/ /  __/ /    
-                           / .___/_/\____/|___/\___/_/     
+                            / /_/ / / /_/ / |/ /  __/ /
+                           / .___/_/\____/|___/\___/_/
                           /_/           ___      _ __       __
                                     ___/ (_)__ _(_) /____ _/ /
                                    / _  / / _ `/ / __/ _ `/ /
@@ -14,82 +14,102 @@
 |o ∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙ o|             Welcome! We're plover digital, a small entity dedicated
 |                   |             to providing quality, independent server infrastructure
 |o ░░░░ ⠶ ░░░░░░░░ o|             services.
-|o ░░░░ ⠩ ░░░░░░░░ o|             
-|                   |             We've been renting and sharing a 48U rack since 2019:
-|o ▄▄▄ ▄▄▄ ▄▄▄ ▄▄▄ o|             - Located in Minneapolis, MN
-|o ▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀ o|             - Dedicated 10Gbps dual stack link
-|o ‖‖‖‖‖‖ ⠥ ‖‖‖‖‖‖ o|             - Datacenter-provided uninterrupted power
-|o ‖‖‖‖‖‖ ⠋ ‖‖‖‖‖‖ o|             
+|o ░░░░ ⠩ ░░░░░░░░ o|
+|                   |             We've been operating since 2019:
+|o ▄▄▄ ▄▄▄ ▄▄▄ ▄▄▄ o|             - 2x 48U racks
+|o ▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀ o|             - Located in Minneapolis, MN at Cologix MIN4
+|o ‖‖‖‖‖‖ ⠥ ‖‖‖‖‖‖ o|             - Dedicated 10Gbps dual stack link from Hurricane Electric
+|o ‖‖‖‖‖‖ ⠋ ‖‖‖‖‖‖ o|             - Datacenter-provided uninterrupted power
 |                   |
-|o  * .   ** . .   o|             
-|o __▂▂▂___▂▂_oo__ o|                               -- Service Info --
-|                   |             (Very negotiable, please chat with us about your needs!)
-|o ▔▔ ▔ ░░░ ====== o|             
-|                   |             $100/month server colocation
-|   >           <   |             - 3U of space
-|   >           <   |             - 100Mbps dedicated link, up to any unallocated bandwidth
-|   >           <   |             - We can help pick and assemble a system
-|                   |             
-|                   |             $300/month server colocation
-|                   |             - 3U of space
-|                   |             - 1Gbps dedicated link, up to any unallocated bandwidth
-|        you?       |             - We can help pick and assemble a system
-|                   |             
-|                   |             $2/month/per IPv4 address
-|                   |             Free IPv6 allocation (we currently have a /48)
-|                   |             
-|                   |             VMs are now available on killdeer.digital.
-|                   |             Sign up with: ssh [username]@killdeer.digital
+|o  * .   ** . .   o|
+|o __▂▂▂___▂▂_oo__ o|
+|                   |
+|o ▔▔ ▔ ░░░ ====== o|
+|                   |
+|   >           <   |
+|   >           <   |
+|   >           <   |
+|                   |
+|                   |
+|                   |
+|        you?       |
+|                   |
+|                   |
+|                   |
+|                   |
+|                   |
+|                   |
 |___________________|
 
 
-                           +----------+-----+-----+------+--------+
-                           | Size     | CPU | RAM | Disk | Est.   |
-                           +----------+-----+-----+------+--------+
-                           | Micro    | 1c  | 1g  | 10g  | ~$8/mo |
-                           | Basic    | 1c  | 2g  | 25g  | ~$15/mo|
-                           | Standard | 2c  | 2g  | 50g  | ~$20/mo|
-                           | Premium  | 2c  | 4g  | 50g  | ~$25/mo|
-                           | Ultra    | 4c  | 4g  | 100g | ~$40/mo|
-                           | Mega     | 4c  | 8g  | 100g | ~$50/mo|
-                           +----------+-----+-----+------+--------+
-                           More info: ssh killdeer.digital help
+                                     -- Datacenter Colocation --
+                          (Very flexible, please chat with us about your needs!)
+                          $65/month 1U 1Gbps shared uplink
+                          $80/month 2U 1Gbps shared uplink
+                          $95/month 3U 1Gbps shared uplink
+                          $110/month 4U 1Gbps shared uplink
+                          $300/month 10Gbps shared uplink
+                          We can help pick and assemble a system
 
-                                      -- Status --
-                           Service and network status at
-                           status.plover.digital
+                          $2/month/per IPv4 address
+                          Free IPv6 allocation (we currently have a /48)
 
-                           |  Get in touch! machines@plover.io  |
-                           |  Discord: discord.gg/AhD77Raqru    |
+                                     -- Virtual Machines --
+                          VMs are now available on killdeer.digital.
+
+                          +----------+-----+-----+------+--------+
+                          | Size     | CPU | RAM | Disk | Est.   |
+                          +----------+-----+-----+------+--------+
+                          | Micro    | 1c  | 1g  | 10g  | ~$8/mo |
+                          | Basic    | 1c  | 2g  | 25g  | ~$15/mo|
+                          | Standard | 2c  | 2g  | 50g  | ~$20/mo|
+                          | Premium  | 2c  | 4g  | 50g  | ~$25/mo|
+                          | Ultra    | 4c  | 4g  | 100g | ~$40/mo|
+                          | Mega     | 4c  | 8g  | 100g | ~$50/mo|
+                          +----------+-----+-----+------+--------+
+
+                          Sign up with: ssh [username]@killdeer.digital
+
+                          More info: ssh killdeer.digital help
+
+                                     -- Managed Hosting --
+                          $1/month/domain static git-backed web hosting at bloc.host
+
+                                     -- Status --
+                          Service and network status at status.plover.digital
+
+                          | Interested in our services, or have a burning question? |
+                          | Reach us at machines@plover.digital                     |
+                          | Or join our Discord: discord.gg/AhD77Raqru              |
 
 
                                      -- Finances --
 
  plover digital's focus is pooling resources to access higher service-level tiers from DCs
- and ISPs, and to this end we are transparent about our expenses and revenue. 
+ and ISPs, and to this end we are transparent about our expenses and revenue.
 
- +----------+--------------------+-----------+----------------+----------+--+--------------+
- |          |                    | Unit Cost | Quantity/Month | Total    |  | Profit/Month |
- |          |                    |           |                |          |  |              |
- | Expenses | Power + Space      | -$529.39  | 1              | -$529.39 |  | -$529.39     |
- |          | Cross Connect      | -$350     | 1              | -$350    |  | -$879.39     |
- |          | IP Transit         | -$550     | 1              | -$550    |  | -$1,429.39   |
- |          | IPv4 Addresses     | -$1       | 64             | -$64     |  | -$1,493.39   |
- |          | Email              | -$24      | 1              | -$24     |  | -$1,517.39   |
- |          | Financial Services | -$100     | 1              | -$100    |  | -$1,617.39   |
- |          | Regulatory Fees    | -$300     | 0.08           | -$25     |  | -$1,642.39   |
- |          |                    |           |                |          |  |              |
- | Revenue  | Colocation         |           |                | $1,150   |  | -$492.39     |
- |          | VMs                |           |                | $6.50    |  | -$485.89     |
- |          | Addt'l Networking  |           |                | $24      |  | -$461.89     |
- +----------+--------------------+-----------+----------------+----------+--+--------------+
+ +----------+--------------------+------------+----------------+------------+--------------+
+ |          |                    | Unit Cost  | Quantity/Month | Total      | Profit/Month |
+ |          |                    |            |                |            |              |
+ | Expenses | Power + Space      | -$2,161.63 | 1              | -$2,161.63 | -$2,161.63   |
+ |          | Cross Connect      | -$350      | 1              | -$350      | -$2,511.63   |
+ |          | IP Transit         | -$550      | 1              | -$550      | -$3,061.63   |
+ |          | IPv4 Addresses     | -$1        | 64             | -$64       | -$3,125.63   |
+ |          | Email              | -$24       | 1              | -$24       | -$3,149.63   |
+ |          | Financial Services | -$100      | 1              | -$100      | -$3,249.63   |
+ |          | Regulatory Fees    | -$300      | 0.08           | -$25       | -$3,274.63   |
+ |          |                    |            |                |            |              |
+ | Revenue  | Colocation         |            |                | $2,125     | -$1,149.63   |
+ |          | VMs                |            |                | $13.00     | -$1,136.63   |
+ +----------+--------------------+------------+----------------+------------+--------------+
 
  Our goal is to have stable, minor (~15% of expenses) profits that can be reinvested into
  hardware or service-level upgrades, or savings for any unforeseen events. The current gap in
  income is being covered by us, the administrators.
 
-    +----------------------------------------------------------------------------------+     
-    | ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉                    |            |
     +----------------------------------------------------------------------------------+
- -$1,642                                          -$461.89                $0         +15%
-                                                                                
+    | ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉                        |            |
+    +----------------------------------------------------------------------------------+
+ -$3,274.6                                   -$1,136.63                   $0          +15%
+
+ We have a referral plan: current users get 10% off a year of service for each new user referral.
