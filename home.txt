@@ -55,26 +55,25 @@
                           Free IPv6 allocation (we currently have a /48)
 
                                      -- Virtual Machines --
-                          VMs are now available on killdeer.digital.
+                          VMs are now available on https://killdeer.digital/.
                           New users get $20 credit.
                           Students: Double credit with a valid .edu email.
                           Referrals: $5 for you, $5 for them.
 
-                          +----------+--------+------+--------+-------+------------+----------+
-                          | Size     | CPU    | RAM  | Disk   | Base  | Runtime    | Est. 24/7|
-                          +----------+--------+------+--------+-------+------------+----------+
-                          | Micro    | 1 vCPU | 1 GB | 10 GB  | $2/mo | $0.0055/hr | ~$6/mo   |
-                          | Basic    | 1 vCPU | 2 GB | 25 GB  | $4/mo | $0.0110/hr | ~$12/mo  |
-                          | Standard | 2 vCPU | 2 GB | 50 GB  | $6/mo | $0.0164/hr | ~$18/mo  |
-                          | Premium  | 2 vCPU | 4 GB | 50 GB  | $6/mo | $0.0247/hr | ~$24/mo  |
-                          | Ultra    | 4 vCPU | 4 GB | 100 GB | $11/mo| $0.0397/hr | ~$40/mo  |
-                          | Mega     | 4 vCPU | 8 GB | 100 GB | $11/mo| $0.0507/hr | ~$48/mo  |
-                          +----------+--------+------+--------+-------+------------+----------+
+                          +----------+--------+------+--------+----------+
+                          | Size     | CPU    | RAM  | Disk   | Est. 24/7|
+                          +----------+--------+------+--------+----------+
+                          | Micro    | 1 vCPU | 1 GB | 10 GB  | ~$6/mo   |
+                          | Basic    | 1 vCPU | 2 GB | 25 GB  | ~$12/mo  |
+                          | Standard | 2 vCPU | 2 GB | 50 GB  | ~$18/mo  |
+                          | Premium  | 2 vCPU | 4 GB | 50 GB  | ~$24/mo  |
+                          | Ultra    | 4 vCPU | 4 GB | 100 GB | ~$40/mo  |
+                          | Mega     | 4 vCPU | 8 GB | 100 GB | ~$48/mo  |
+                          +----------+--------+------+--------+----------+
 
-                          Base fee includes $1/mo for IPv4 + $1/mo per 10GB storage.
-                          IPv6-only VMs save $1/mo because there is no IPv4 charge.
-                          Runtime is charged hourly only when the VM is powered on.
-                          Base fee is prorated when VMs are created or deleted mid-cycle.
+                          Estimates assume the VM is powered on 24/7.
+                          IPv6-only VMs save $1/mo.
+                          See https://killdeer.digital/ for full billing details.
 
                           Sign up with: ssh [username]@killdeer.digital
 
