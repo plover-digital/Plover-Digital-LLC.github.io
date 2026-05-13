@@ -55,7 +55,7 @@
                           Free IPv6 allocation (we currently have a /48)
 
                                      -- Virtual Machines --
-                          VMs are now available on killdeer.digital.
+                          VMs are now available on https://killdeer.digital/.
                           New users get $20 credit.
                           Students: Double credit with a valid .edu email.
                           Referrals: $5 for you, $5 for them.
@@ -73,7 +73,7 @@
 
                           Estimates assume the VM is powered on 24/7.
                           IPv6-only VMs save $1/mo.
-                          See killdeer.digital for full billing details.
+                          See https://killdeer.digital/ for full billing details.
 
                           Sign up with: ssh [username]@killdeer.digital
 
