@@ -15,6 +15,10 @@
 html, body, * {
   font-family: 'Menlo', monospace;
 }
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
 
 .container {
   white-space: pre;
@@ -50,6 +54,7 @@ html, body, * {
     margin: 0 auto;
   }
   .table, .contact-box {
+    white-space: pre;
     font-size: 12px;
     overflow-x: auto;
   }
