@@ -38,12 +38,20 @@ html, body, * {
   display: none;
 }
 @media (max-width: 900px) {
+  .container {
+    max-width: 100%;
+  }
   .main {
     display: block;
   }
-  .main div {
+  .main div, .main .text {
     width: fit-content;
+    max-width: 100%;
     margin: 0 auto;
+  }
+  .table, .contact-box {
+    font-size: 12px;
+    overflow-x: auto;
   }
   .finances-big {
     display: none;
